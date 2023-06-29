@@ -1,0 +1,193 @@
+@media screen and (max-width : 922px) {
+    .nav-button {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .img-hero {
+        width: 450px;
+        height: auto;
+    }
+
+    .hero-tagline h1 {
+        line-height: 50px;
+        font-size: 40px;
+    }
+
+    .input-cari .button-secondary {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .input-cari .button-primary {
+        width: 20%;
+        font-size: 24px;
+        border-radius: 0;
+    }
+
+    #layanan {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .card-layanan {
+        padding: 25px;
+    }
+
+    .card-layanan h3{
+        font-size: 18px;
+    }
+
+    #rekomendasi {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #search-bar {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #rekomendasi h2 {
+        font-size: 38px;
+    }
+
+    #fitur {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #contact-form {
+        height: auto;
+    }
+
+    #contact-form .overlay {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #contact-form h3 {
+        font-size: 36px;
+    }
+
+    .card-contact {
+        width: 600px;
+        height: 430px;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+        padding-bottom: 20px;
+        padding-left: 48px;
+        padding-right: 47px;
+    }
+
+    .form-control {
+        background: #D9D9D9;
+        height: 75px !important;
+        border-radius: 0;
+    }
+
+    .button-contact{
+        width: 300px;
+        height: 75px;
+        background: #00985B;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 600;
+        border: none;
+    }
+
+    footer a {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width : 576px) {
+
+    .hero-tagline h1 {
+        line-height: 52px;
+    }
+
+    .img-hero {
+        width: 250px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .card-layanan {
+        margin: 15px 0;
+        padding: 60px;
+    }
+
+    .card-layanan:hover {
+        margin: 15px 0;
+        padding: 60px;
+    }
+
+    #layanan {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    #search-bar {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .heading-search-bar h2 {
+        font-weight: 600;
+        font-size: 34px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .heading-search-bar p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-secondary {
+        width: 50%;
+        height: 60px;
+        border-radius: 0;
+    }
+
+    .input-cari .button-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 30px;
+        border-radius: 0;
+    }
+
+    .input-cari .form-rekomendasi {
+        width: 70%;
+        height: 60px !important;
+    }
+
+    #rekomendasi h2 {
+        font-size: 32px;
+    }
+
+    footer a {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 350px) {
+    
+}

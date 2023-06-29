@@ -1,0 +1,546 @@
+:root {
+    --pr-color : #00985B;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+}
+
+body {
+    background-color: #F3FFF4;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--pr-color);
+    margin-bottom: 20px;
+}
+
+/* navbar style */
+.navbar {
+    z-index: 3;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+/* Navbar Color */
+.nav-color {
+    background-color: #007245;
+    transition: all ease-in-out .3s;
+}
+
+.bg-transparent {
+    transition: all ease-in-out .3s;
+}
+
+/* navbar button style */
+.nav-button .button-primary {
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.nav-button .button-secondary {
+    margin-right: 30px;
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* hero section style */
+#hero {
+    background: linear-gradient(107.63deg, rgba(0, 152, 91, 0.8) 0%, #000000 121.31%);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-tagline {
+    color: #fff;
+}
+
+.hero-tagline h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.hero-tagline p {
+    font-size: 18px;
+    line-height: 27px;
+    width: 495px;
+    margin-bottom: 37px;
+}
+
+.button-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--pr-color);
+}
+
+.cta-arrow {
+    width: 60px;
+    height: 60px;
+}
+
+/* Layanan Section */
+
+/* non hover */
+
+#layanan {
+    width: 100%;
+    height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.card-layanan {
+    width: 100%;
+    height: 313px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    color: #000000;
+}
+
+.circle-icon {
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    transition: all .3s ease-in;
+}
+
+.card-layanan h3 {
+    color: var(--pr-color);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-layanan p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .4s ease-in;
+}
+
+/* hover */
+.card-layanan:hover {
+    width: 100%;
+    height: 313px;
+    background: linear-gradient(124.17deg, #00985B 0%, #000000 183.19%);
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+
+.card-layanan:hover .circle-icon {
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+}
+
+.card-layanan:hover h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-layanan:hover p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .4s ease-in;
+}
+
+/* SearchBar Section */
+#search-bar {
+    background-image: url(../img/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering\ 1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.input-cari .form-rekomendasi {
+    height: 88px !important;
+}
+
+.heading-search-bar h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.heading-search-bar p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.input-cari {
+    height: 88px;
+}
+
+.input-cari:focus {
+    border: none;
+}
+
+.input-cari .button-secondary {
+    height: 88px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary {
+    height: 88px;
+    width: 135px;
+    background-color: var(--pr-color);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: var(--pr-color);
+}
+
+/* Rekomendasi */
+#rekomendasi {
+    width: 100%;
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.card {
+    height: 460px;
+    border: none;
+    transition: all ease-in-out .3s;
+    margin-bottom: 18px;
+}
+
+.card-body h4 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    transition: all ease-in-out .3s;
+}
+
+.card-body p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #454545;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover {
+    background: linear-gradient(170deg, var(--pr-color), #007245, #000);
+    box-shadow: 0, 10px, 20px, rgba(0, 0, 0, .25);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4 {
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p {
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+.card-fasilitas {
+    transition: all ease-in-out .3s;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+}
+
+.card-fasilitas span {
+    font-weight: 500;
+    margin-top: 15px;
+    color: #000;
+}
+
+.card-fasilitas p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+}
+
+/* Carousel Fasilitas */
+#fitur {
+    width: 100%;
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+.button-fitur {
+    width: 238px;
+    height: 63px;
+    background-color: var(--pr-color);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card-fitur .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all ease-in-out .5s;
+}
+
+.card-fitur .overlay:hover {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: all ease-in-out .5s;
+}
+
+.card-fitur .overlay h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.card-fitur .overlay span {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-fitur .overlay h6 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-fitur .overlay button {
+    width: 150px;
+    height: 45px;
+    background: #00985B;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.button-carousel {
+    width: 60px;
+    height: 60px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+    border: none;
+}
+
+/* Contact Form */
+#contact-form {
+    background-image: url(../img/bg-contact-form.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#contact-form .overlay {
+    background: rgba(0, 0, 0, 0.50);
+    padding: 50px 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+
+#contact-form h3 {
+    color: #FFF;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.contact h6 {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin: 19px 0 14px 0;
+}
+
+.contact a {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: none;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.contact a:hover {
+    color: var(--pr-color);
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: none;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.social-media h6 {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin: 19px 0 14px 0;
+}
+
+.social-media a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.social-media img {
+    margin-right: 20px;
+}
+
+.social-media a:hover {
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--pr-color);
+}
+
+.card-contact {
+    width: 100%;
+    height: 445px;
+    text-align: center;
+    border-radius: 5px;
+    background: #FFF;
+    padding-top: 50px;
+    padding-left: 48px;
+    padding-right: 47px;
+}
+
+.form-control {
+    background: #D9D9D9;
+    height: 75px !important;
+    border-radius: 0;
+}
+
+.form-floating label {
+    color: #717171;
+}
+
+.button-contact{
+    width: 485px;
+    height: 75px;
+    background: #00985B;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 270px;
+    background: #000;
+}
+
+footer a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--pr-color);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a img {
+    margin-right: 12px;
+}
+
+.copyright p {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.copyright {
+    bottom: 1%;
+}
